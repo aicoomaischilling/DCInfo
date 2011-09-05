@@ -1,0 +1,8 @@
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfo_Script.PreDeployment.sql
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfo_Script.PostDeployment.sql
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfo_Database.sqlsettings
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfo_Database.sqldeployment
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfo_Database.sqlcmdvars
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfoDB.deploymanifest
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\sql\debug\DCInfoDB.dbschema
+C:\Users\ischilling\Documents\Visual Studio 2010\Projects\DCInfo\DCInfoDB\obj\Debug\DCInfoDB.dbschema

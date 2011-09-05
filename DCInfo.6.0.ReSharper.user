@@ -1,0 +1,257 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Impressum.aspx" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Register.aspx.cs" caret="50" fromTop="2" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Recovery.aspx.cs" caret="50" fromTop="2" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:App_Themes/d:default/f:Default.css" caret="242" fromTop="13" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Login.aspx.cs" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Login.aspx" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master.cs" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Default.aspx.cs" caret="819" fromTop="25" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MemberPages/f:Members.aspx.cs" caret="286" fromTop="11" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:web.config" caret="193" fromTop="6" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Global.asax" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx.cs" caret="298" fromTop="11" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master" caret="770" fromTop="20" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MemberPages/f:Members.aspx" caret="451" fromTop="7" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Logout.aspx" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Recovery.aspx" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Register.aspx" caret="0" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3045" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="1310" fromTop="20" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Default.aspx" caret="210" fromTop="3" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="38" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="34" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="553" fromTop="10" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="14" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MemberPages/f:Members.aspx" caret="451" fromTop="7" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master" caret="3689" fromTop="19" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master" caret="3229" fromTop="14" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="23" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="26" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="29" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="39" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3989" fromTop="34" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master" caret="4134" fromTop="25" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Default.aspx" caret="139" fromTop="1" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:Default.aspx" caret="395" fromTop="6" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MemberPages/f:Members.aspx.cs" caret="286" fromTop="11" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="264" fromTop="4" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:web.config" caret="193" fromTop="6" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx.cs" caret="298" fromTop="11" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="4883" fromTop="22" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="264" fromTop="3" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="264" fromTop="7" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3966" fromTop="29" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="264" fromTop="3" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="987" fromTop="30" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="1341" fromTop="42" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="1671" fromTop="36" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/f:web.config" caret="3179" fromTop="0" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:MasterPages/f:Main.master" caret="770" fromTop="20" />
+      <File id="99431A2F-D758-40AB-AA93-1BA183825C34/d:LocationManager/f:ManageLocations.aspx" caret="1316" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="br" priority="77" />
+      <Item value="div" priority="13" />
+      <Item value="a" priority="20" />
+      <Item value="href" priority="20" />
+      <Item value="target" priority="6" />
+      <Item value="hr" priority="13" />
+      <Item value="&amp;nbsp;" priority="17" />
+      <Item value="AutoCompleteType" priority="7" />
+      <Item value="Email" priority="7" />
+      <Item value="TextMode" priority="6" />
+      <Item value="Password" priority="7" />
+      <Item value="input" priority="6" />
+      <Item value="border" priority="6" />
+      <Item value="Visible" priority="7" />
+      <Item value="FormatString" priority="20" />
+      <Item value="table" priority="6" />
+      <Item value="tr" priority="34" />
+      <Item value="td" priority="48" />
+      <Item value="style" priority="49" />
+      <Item value="width" priority="36" />
+      <Item value="margin" priority="9" />
+      <Item value="class" priority="21" />
+      <Item value="MasterPage" priority="23" />
+      <Item value="BackColor" priority="6" />
+      <Item value="EnableTheming" priority="6" />
+      <Item value="h1" priority="20" />
+      <Item value="height" priority="9" />
+      <Item value="background" priority="9" />
+      <Item value="Recovery.aspx" priority="7" />
+      <Item value="Register.aspx" priority="7" />
+      <Item value="LoggedInTemplate" priority="6" />
+      <Item value="span" priority="6" />
+      <Item value="font-size" priority="9" />
+      <Item value="id" priority="6" />
+      <Item value="runat" priority="20" />
+      <Item value="server" priority="20" />
+      <Item value="text-align" priority="7" />
+      <Item value="DataSource" priority="6" />
+      <Item value="ButtonType" priority="6" />
+      <Item value="Button" priority="6" />
+      <Item value="ShowEditButton" priority="6" />
+      <Item value="ConflictDetection" priority="6" />
+      <Item value="CompareAllValues" priority="6" />
+      <Item value="DataSourceMode" priority="6" />
+      <Item value="DataSet" priority="6" />
+      <Item value="EnableViewState" priority="6" />
+      <Item value="DataSourceID" priority="7" />
+      <Item value="ShowHeader" priority="6" />
+      <Item value="AllowSorting" priority="6" />
+      <Item value="AllowPaging" priority="6" />
+      <Item value="SqlDataSource" priority="7" />
+      <Item value="ConnectionString" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="div" priority="5" />
+      <Item value="span" priority="5" />
+      <Item value="text-decoration" priority="5" />
+      <Item value="overline" priority="5" />
+      <Item value="text-rendering" priority="5" />
+      <Item value="font-weight" priority="5" />
+      <Item value="bolder" priority="6" />
+      <Item value="link" priority="5" />
+      <Item value="margin" priority="24" />
+      <Item value="border" priority="5" />
+      <Item value="td" priority="11" />
+      <Item value="font-size" priority="6" />
+      <Item value="text-align" priority="18" />
+      <Item value="justify" priority="13" />
+      <Item value="width" priority="2" />
+      <Item value="font-family" priority="5" />
+      <Item value="font-style" priority="5" />
+      <Item value="color" priority="5" />
+      <Item value="black" priority="13" />
+      <Item value="table" priority="5" />
+      <Item value="MasterPage" priority="24" />
+      <Item value="tr" priority="5" />
+      <Item value="height" priority="0" />
+      <Item value="background" priority="0" />
+      <Item value="blue" priority="13" />
+      <Item value="none" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Html32TextWriter`0" priority="31" />
+      <Item value="Page`0" priority="31" />
+      <Item value="Linq" priority="26" />
+      <Item value="HttpUtility`0" priority="31" />
+      <Item value="System" priority="219" />
+      <Item value="Web" priority="134" />
+      <Item value="protected" priority="63" />
+      <Item value="internal" priority="63" />
+      <Item value="string" priority="127" />
+      <Item value="int" priority="31" />
+      <Item value="public" priority="63" />
+      <Item value="return" priority="63" />
+      <Item value="PIWIK" priority="63" />
+      <Item value="GoogleAnalytics" priority="63" />
+      <Item value="Piwik" priority="63" />
+      <Item value="using" priority="123" />
+      <Item value="Configuration" priority="26" />
+      <Item value="GOOGLEAnalytics" priority="31" />
+      <Item value="ConfigurationSettings`0" priority="31" />
+      <Item value="Configuration`0" priority="31" />
+      <Item value="ConfigurationManager`0" priority="31" />
+      <Item value="cphMessages" priority="31" />
+      <Item value="Messages" priority="31" />
+      <Item value="Security" priority="107" />
+      <Item value="User" priority="31" />
+      <Item value="Identity" priority="26" />
+      <Item value="MembershipUser`0" priority="85" />
+      <Item value="FormsIdentity`0" priority="127" />
+      <Item value="Profile" priority="26" />
+      <Item value="Principal" priority="26" />
+      <Item value="UserScopedSettingAttribute`0" priority="63" />
+      <Item value="IPrincipal`0" priority="64" />
+      <Item value="new" priority="127" />
+      <Item value="MembershipUser" priority="28" />
+      <Item value="mu" priority="31" />
+      <Item value="FormsIdentity" priority="57" />
+      <Item value="id" priority="63" />
+      <Item value="FormsAuthenticationTicket`0" priority="63" />
+      <Item value="Page" priority="127" />
+      <Item value="authenticationTicket" priority="192" />
+      <Item value="FormsAuthenticationTicket" priority="28" />
+      <Item value="DateTime`0" priority="95" />
+      <Item value="false" priority="31" />
+      <Item value="formsID" priority="95" />
+      <Item value="IFormatProvider`0" priority="31" />
+      <Item value="Master" priority="95" />
+      <Item value="MaintainScrollPositionOnPostBack" priority="160" />
+      <Item value="this" priority="191" />
+      <Item value="ConnectionStringSettings`0" priority="31" />
+      <Item value="ConnectionStringSettingsCollection`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="User" priority="107" />
+      <Item value="Master" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationSettings">
+      <Item value="AppSettings" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="InnerHtml" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.FormsIdentity">
+      <Item value="Name" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddMinutes`0" priority="26" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LocationManager_ManageLocations">
+      <Item value="Master" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:LocationManager_Location_Manage">
+      <Item value="Master" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MemberPages_Members">
+      <Item value="Master" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.MasterPage">
+      <Item value="Master" priority="26" />
+      <Item value="Page" priority="53" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
