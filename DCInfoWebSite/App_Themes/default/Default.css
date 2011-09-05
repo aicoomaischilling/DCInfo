@@ -1,0 +1,60 @@
+﻿
+body, div, span
+{
+	font-family: Arial, Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	text-align: justify;	
+	color: black;
+}
+
+a, link, visited
+{
+	font-family: Arial, Helvetica;		
+	text-decoration: none;
+	text-transform: none;
+	color: blue;
+}
+
+table
+{	
+	width: 100%;
+	text-align: left;
+	color: black;
+	margin: 10px 0px 10px 0px
+}
+
+td
+{
+	font-family: Arial, Helvetica;
+	font-size: 12pt;
+	font-style: normal;
+	text-align: justify;
+}
+
+table.MasterPage, tr.MasterPage
+{
+	border-width: 0pt; 
+	vertical-align: top; 
+	text-align: left;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+td.MasterPage
+{
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+    font-style: normal;
+    font-weight: bold;
+	text-align: justify;
+	margin: 0px 0px 0px 0px;
+}
+
+a.MasterPage, link.MasterPage, visited.MasterPage
+{
+	font-family: Arial, Helvetica;		
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}

@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="DCInfo.Web.Main"%>
+<!DOCTYPE HTML>
+<html>
+	<head runat="server">	
+		<title>Data Center Information</title>
+		<!-- CSS -->
+		<link href="~/App_Themes/default/Default.css" rel="stylesheet" type="text/css" />
+        
+        <!-- METAS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <!-- Load JQuery -->
+<!--        <script src="~/JS/jquery-1.6.1.js" type="text/javascript"></script> -->
+
+        <!-- local JavaScript variables -->
+		<script type="text/javascript">
+			/* 
+			 * the following variables are used for basic system functionality 
+			 */
+			var Path2Root		= "<%= path2Root %>"; 
+			var debug			= "<%= debug %>"; 
+			
+			var ServerName		= "<%= serverName %>";
+			var ServerPort		= "<%= serverPort %>"; 
+			var URI				= "<%= URI %>"; 
+			/* var AJAXScriptURI	= URI + "AJAX/AJAXCMD.ashx";  */
+			var UserID			= "<%= userID %>"; 
+
+			/* 
+ 			 * The QueryString (either coming from POST or GET) is stored here - you won't see something if there was nothing (of course ;)) 
+			 */
+			<%= createQueryString4JS() %>
+						
+			/* 
+  			 * Go on from here... 
+			*/	
+		</script>
+        <!--
+            BING Maps integration
+        //-->
+        <script charset="UTF-8" type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+
+        <script charset="UTF-8" type="text/javascript">
+            var map = null;
+            var MapCredential = '<%= BingMapKey %>';
+
+            function MapInitialize() 
+            {
+                var options =
+                {
+                    credentials: MapCredential,
+                    animate: true,
+                    tileBuffer: 4
+                };
+
+                // Initialize the map
+                map = new Microsoft.Maps.Map(document.getElementById("DCInfoMap"), options);
+                
+                /*
+                 * always position the map to the current user position
+                 */
+                //map.entities.clear();
+                var geoLocationProvider = new Microsoft.Maps.GeoLocationProvider(map);
+                geoLocationProvider.getCurrentPosition(); 
+            }
+        </script>
+
+        <!-- diverse -->
+		<link href="~/App_Themes/favicon.ico" rel="shortcut icon" />
+	</head>
+
+	<!-- <body onload="initialize();"> -->
+    <body runat="server" id="MainBody">
+		<form id="MainForm" runat="server"> 
+			<div>
+				<table class="MasterPage">
+					<tr class="MasterPage">
+						<td class="MasterPage" style="width: 10%;">													<!-- Webside (Logo/Name) -->
+							<a href="<%= URI %>Default.aspx" class="MasterPage">Datacenter Information</a>
+						</td>
+						<td class="MasterPage" style="text-align: center; width: 65%;">								<!-- Middle part (empty for now) -->
+							&nbsp;
+						</td>
+						<td class="MasterPage" style="text-align: right; vertical-align: middle; width: 25%;">		<!-- Login etc. -->
+							<asp:LoginView ID="LoginView" runat="server">
+								<AnonymousTemplate>
+									You are not logged in. Click <a href="~/Login.aspx" runat="server">Login</a> to sign in<br />or <a href="~/Register.aspx" runat="server">Register</a> to register your user account.<br/>
+									Click <a href="~/Recovery.aspx" runat="server">here</a> to recover your password.</a>
+								</AnonymousTemplate>								
+								<LoggedInTemplate>
+									<asp:LoginName ID="LoginName" runat="server" FormatString="Welcome, {0}"/><br/>
+									You can edit your settings <a href="~/MemberPages/Members.aspx" runat="server">here.</a><br/>
+									Click <a href="~/Logout.aspx" runat="server">logout</a> to sign out.
+								</LoggedInTemplate>
+							</asp:LoginView>					 
+						</td>
+					</tr>
+				</table>
+				<asp:ContentPlaceHolder ID="cphMenu" runat="server">
+                    
+				</asp:ContentPlaceHolder>
+
+				<asp:ContentPlaceHolder ID="cphMessages" runat="server">
+					<div id="Messages" style="text-align: left; color: Red;" runat="server">
+                    </div>
+				</asp:ContentPlaceHolder>
+
+				<hr/>
+				<asp:ContentPlaceHolder ID="cphMain" runat="server">                            
+				</asp:ContentPlaceHolder>				
+				<table class="MasterPage">
+                    <tr><td colspan="3"><hr/></td></tr>
+					<tr class="MasterPage">
+						<td class="MasterPage" style="text-align: left; width: 10%;">
+							<a href="<%= URI %>Default.aspx" class="MasterPage">Home</a>
+						</td>
+						<td class="MasterPage" style="text-align: center; width: 75%;">
+							<a href="<%= URI %>Impressum.aspx" class="MasterPage">Impressum</a>
+						</td>
+						<td class="MasterPage" style="text-align: right; width: 15%;">
+							&copy; <%= Copyright %>&nbsp;<a href="http://www.aicooma.com/?ref=DCInfo&refTime=<%= DateTime.Now.ToString() %>" target="_blank" class="MasterPage">aicooma - IT CO_MANAGEMENT GmbH</a>						
+						</td>
+					</tr>
+				</table>
+			</div>
+        </form> 
+
+		<!-- Analyzing Tools go here -->
+		<%= Piwik %>
+
+		<%= GoogleAnalytics %>
+		<!-- Analyzing Tools end here -->
+
+	</body>
+</html>
