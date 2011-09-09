@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DCInfo", "DCInfoWebSite\", "{99431A2F-D758-40AB-AA93-1BA183825C34}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DCInfo", "..\..\WebSites\DCInfo\", "{99431A2F-D758-40AB-AA93-1BA183825C34}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/DCInfo"
-		Debug.AspNetCompiler.PhysicalPath = "DCInfoWebSite\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\DCInfo\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DCInfo\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/DCInfo"
-		Release.AspNetCompiler.PhysicalPath = "DCInfoWebSite"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\DCInfo\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DCInfo\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
